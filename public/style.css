@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  padding: 2rem;
+  color: rgb(145, 56, 47);
+  border: 5px solid rgb(242, 102, 87);
+  width: 50%;
+  margin: 1rem auto 1rem auto;
+  background: rgba(192, 186, 186, .9);
+
+}
+body {
+  font-family: 'Libre Baskerville', serif;
+  min-height: 100%;
+  height: auto;
+  width: 100vw;
+  position: relative;
+  background: rgb(180,100,58);
+  background: url('/public/images/book1.jpeg');
+  background-position: center; /* Center the image */
+
+}
+
+#sampleui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.4;
+  border-radius: 5px;
+  padding: 1rem;
+  background: rgba(192, 186, 186, .9);
+  min-height: 500px;
+  width: 80%;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: covers;
+  border: 5px solid rgb(242, 102, 87);
+}
+#bookTitleToAdd {
+  padding: .5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 1rem 0;
+}
+#bookTitleToAdd:focus {
+  border: 1px solid rgb(242, 102, 87);
+  
+}
+#newBook {
+  padding: .5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+#newBook:hover {
+  cursor: pointer;
+  background: rgb(242, 102, 87);
+  transition: ease-in .5s;
+
+}
+#wrapper {
+  display: flex;
+  align-items: center;
+}
+#display {
+  line-height: 1.8rem;
+  padding: .5rem;
+
+}
+ul {
+  list-style: none;
+}
+#display:hover {
+  cursor: pointer;
+}
+#bookDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  max-height: 175px;
+  
+}
+#detailTitle {
+  padding: .25rem;
+}
+#detailComments {
+  margin: .5rem;
+
+}
+#detailComments input {
+  padding: .5rem;
+  min-width: 100px;
+  max-width: 200px;
+  margin: 0 auto;
+  min-height: 20px;
+  outline: none;
+  border-radius: 5px;
+  border:none;
+
+}
+#detailComments input:focus {
+  border: 1px solid rgb(242, 102, 87);
+
+}
+#detailComments button {
+  padding: .25rem;
+  min-width: 50px;
+  max-width: 80px;
+  margin: 0 .5rem;
+  min-height: 20px;
+  border: none;
+  outline: none;
+}
+#detailComments button:hover {
+ cursor: pointer;
+ background: rgb(242, 102, 87);
+ transition: ease-in .5s;
+}
+#deleteAllBooks {
+  border: none;
+  outline: none;
+  border: 5px;
+  margin-top: 2rem;
+  padding: .25rem;
+  min-height: 20px;
+  max-height: 70px;
+  min-width: 50px;
+  max-width: 80px;
+  border-radius: 5px;
+
+}
+#deleteAllBooks:hover {
+  cursor: pointer;
+  background: rgb(242, 102, 87);
+  transition: ease-in .5s;
+}
+#delete {
+ min-height: 70px;
+ min-width: 150px;
+
+}
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: .8rem;
+  border: 5px solid rgb(242, 102, 87);
+  background: rgba(242, 102, 87, .7);
+  width: 80%;
+  line-height: 1.8;
+  text-align: center;
+}
+footer a {
+  color: black;
+  font-size: 1.3rem;
+
+}
+footer a:hover {
+  color: rgb(44, 42, 42);
+}

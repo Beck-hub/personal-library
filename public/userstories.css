@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+  font-family: 'Libre Baskerville', serif;
+  min-height: 100%;
+  height: auto;
+  width: 100vw;
+  position: relative;
+  background: rgb(180,100,58);
+  background: url('/public/images/books.jpg');
+  background-position: center; /* Center the image */
+
+}
+
+h2 {
+    text-align: center;
+    padding: 2rem;
+    color: rgb(145, 56, 47);
+    border: 5px solid rgb(242, 102, 87);
+    width: 50%;
+    margin: 1rem auto 1rem auto;
+    background: rgba(192, 186, 186, .9);
+  
+  }
+
+  #userstories {
+    text-align: center;
+    padding: 2rem 3rem;
+    border: 5px solid rgb(242, 102, 87);
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+    background: rgba(192, 186, 186, .9);
+    line-height: 1.8rem;
+}
+form {
+    text-align: center;
+    padding: 2rem;
+    border: 5px solid rgb(242, 102, 87);
+    width: 50%;
+    margin: 1rem auto 1rem auto;
+    background: rgba(192, 186, 186, .9);
+}
+input {
+    outline: none;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 1rem;
+    border: none;
+}
+input:focus {
+    border: 1px solid rgb(242, 102, 87);
+
+}
+.submit {
+    padding: .5rem;
+    min-width: 50px;
+    max-width: 80px;
+    margin: .5rem;
+    min-height: 20px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+  }
+.submit:hover {
+   cursor: pointer;
+   background: rgb(242, 102, 87);
+   transition: ease-in .5s;
+  }
+  footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: .8rem;
+    border: 5px solid rgb(242, 102, 87);
+    background: rgba(242, 102, 87, .8);
+    width: 80%;
+    line-height: 1.8;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+  }
+  footer a {
+      color: black;
+      font-size: 1.3rem;
+
+  }
+  footer a:hover {
+      color: rgb(44, 42, 42);
+  }
+  @media (min-width: 900px) {
+      #userstories {
+          width: 50%;
+          
+      }
+  }
